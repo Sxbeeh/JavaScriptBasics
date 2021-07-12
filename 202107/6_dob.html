@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script>
+            // how much day remaining till BirthDay of Sabeeh
+            var dob = prompt("Enter your date.");
+            var date1 = new Date(dob); // 20/03/2010
+            var date2 = new Date();
+            //console.log(date1);
+            //console.log(date2);
+            var diff = date2 - date1;
+            var years = diff / (1000 * 60 * 60 * 24 * 365);
+            var remaining_months =  (years % 1)  * 12;
+
+            console.log("You are " + Math.trunc(years) + " years and " +  Math.trunc(remaining_months) + " months old, Idiot!");
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

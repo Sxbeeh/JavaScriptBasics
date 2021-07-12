@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script>
+            
+            function add(a, b){
+                return a + b;                
+            }
+            
+            function minus(a,b ){
+                return a - b;
+            }
+            
+            function multiply(a, b){
+                return a * b;
+            }
+
+            function divide(a, b){
+                if(b == 0){
+                    console.error("Cannot divide by 0");
+                    return
+                }
+                return a / b;
+            }
+
+            var result;
+            
+            var first = prompt("Enter First number");
+            var second = prompt("Enter Second number");
+            var m = Number(first)
+            var n = Number(second)
+
+            console.log("WELCOME TO SABEEH'S CALCULATOR")
+
+            result = add(m, n)
+            console.log("Add result="+result);
+
+            result = minus(m, n)
+            console.log("Minus result="+result)
+
+            result = multiply(m, n)
+            console.log("Multiply result="+result)
+
+            result = divide(m, n)
+            console.log("Divide result=" +result)            
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

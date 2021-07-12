@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+            
+            var c = prompt("enter temperature in celsius")
+
+            var result = confirm("Ok = Farenheit, Cancel = Kelvin")
+            if(result == true)
+            {
+                var f = (c*9/5) + 32;
+                alert("temperature in farenheit = " + f)  
+            }
+            else {
+                var k = parseInt(c) + 273.15;
+                alert("temperature in kelvin = " + k)
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
