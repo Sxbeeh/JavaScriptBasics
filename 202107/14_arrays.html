@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            
+            var marks = [];
+            for(var i=0; i<=5; i++){
+                var n = prompt("Enter number " + (i + 1));
+                marks[i] = Number(n);
+            }
+
+            var total = 0;
+
+            for(var i=0; i < marks.length; i++){
+                total = total + marks[i];               
+                //console.log(marks[i])
+            }
+
+            var average = total / marks.length;
+            console.log("The average of marks is " + average)
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
