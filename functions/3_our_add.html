@@ -5,12 +5,12 @@
            function add(n)
            {
                // 5 + 5 => 10
-               var sum = parseInt(n) + parseInt(n);
+               var sum = Number(n) + Number(n);
                
                // 5 || 5 => 55
                var t = n + '' + n;
                
-               var final = parseInt(t) + parseInt(sum);
+               var final = Number(t) + Number(sum);
 
                console.log(n + '+' + n + '=' + final);
            }

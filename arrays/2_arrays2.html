@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            
+            // This function will calculate percentage of student marks and will print
+            function print(a) {
+
+                console.log(a / 900 * 100 + " % ")
+            }
+
+            console.log("Class 5 Result Day");
+            var marks = [];
+            for(var i=0; i<20; i++){
+                var n = prompt("Enter student # " + (i + 1) + " marks out of 900: ");
+                marks[i] = Number(n);
+
+                print(marks[i]);
+            }
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
